@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+#form{
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+}
+
+#list{
+  background-color: LightBlue ;
+}
+
+#listItem{
+  width: inherit;
+  border-bottom-color: White ;
+  border: 5px solid white;
+  display: block;
+}
+
+#user{
+  font-weight:bold;
+  font-style: italic;
+  float:left;
+  width:30%;
+}
+
+#text{
+  font-style: italic;
+  flex-wrap: wrap;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
